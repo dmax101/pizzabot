@@ -13,6 +13,9 @@ async def on_ready():
 async def on_message(message):
   if message.author == client.user:
     return
+
+  if "@here" in message.content or "@everyone" in message.content:
+    return
   
   if message.content.startswith("$"):
     await message.channel.send("Olá, gostaria de uma pizza?")
