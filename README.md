@@ -4,7 +4,6 @@
 	 🍕 PizzaBot 🍕 Em Desenvolvimento 🚀 
 </h4>
 
----
 
 ## 💻 Sobre o projeto
 
@@ -16,13 +15,11 @@
 
 ## ⚙️ Funcionalidades
 
- O usuário pode pedir uma pizza diretamente pelo Discord sem precisar interromper sua partida 😋
+ O usuário pode pedir uma pizza diretamente pelo Discord sem precisar interromper sua partida 😋👾
 
-## 🎨 Layout
 
--
+ ---
 
----
 
 ## 🚀 Como incluir o bot no seu server
 
@@ -34,4 +31,14 @@
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
+  - Python
+  - Pip
+  - Pytest
+  - Wit
+  - MongoDB
+  
 
+
+---
+
+## 👨‍💻 Contribuidores

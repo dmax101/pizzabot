@@ -13,11 +13,9 @@ async def on_ready():
 async def on_message(message):
   if message.author == client.user:
     return
-
-  if "@here" in message.content or "@everyone" in message.content:
-    return
   
-  if message.content.startswith("$"):
-    await message.channel.send("Olá, gostaria de uma pizza?")
+  if client.user.mentioned_in(message):
+    if message.mention_everyone is False and message.mention_here in False:
+      await message.channel.send("Olá, gostaria de uma pizza?") #responde mensagem
 
 client.run(os.environ['TOKEN_PIZZA'])
