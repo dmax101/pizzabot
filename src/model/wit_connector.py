@@ -4,7 +4,7 @@ import os
 
 class Wit_Connector:
     def __init__(self):
-        self.client = Wit(os.environ['WIT_TOKEN'])
+        self.client = Wit(access_token=os.environ['WIT_TOKEN'])
 
     def send_test_message(self):
         resp = self.client.message("test message")
