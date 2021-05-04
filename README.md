@@ -40,11 +40,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
   <table>
   <tr>
-  <td align="center"><img style="border-radius: 50%;" src="https://ibb.co/17shswg" width="100px;" alt=""/><br /><sub><b>Igor Rufino Ribeiro</b></sub><br />👾</td>
+  <td align="center"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/40177904?v=4" width="100px;" alt=""/><br /><sub><b>Igor Rufino Ribeiro</b></sub><br />👾</td>
 
-  <td align="center"><img style="border-radius: 50%;" src="https://ibb.co/7RSpKcR" width="100px;" alt=""/><br /><sub><b>Danilo Vidal Ribeiro</b></sub><br />👾</td>
+  <td align="center"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/8492524?v=4" width="100px;" alt=""/><br /><sub><b>Danilo Vidal Ribeiro</b></sub><br />👾</td>
 
-  <td align="center"><img style="border-radius: 50%;" src="https://ibb.co/wJMPs94" width="100px;" alt=""/><br /><sub><b>Luana Gribel Ito</b></sub><br />👾</td>
+  <td align="center"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/76191273?v=4" width="100px;" alt=""/><br /><sub><b>Luana Gribel Ito</b></sub><br />👾</td>
 
 </tr>
 <table>
