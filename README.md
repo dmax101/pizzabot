@@ -38,6 +38,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 👨‍💻 Contribuidores
 
-    <td align="center"><img style="border-radius: 50%;" src="https://ibb.co/17shswg" width="100px;" alt=""/><br /><sub><b>Igor Rufino Ribeiro</b></sub><br />👾</td>
-    <td align="center"><img style="border-radius: 50%;" src="https://ibb.co/7RSpKcR" width="100px;" alt=""/><br /><sub><b>Danilo Vidal Ribeiro</b></sub><br />👾</td>
-    <td align="center"><img style="border-radius: 50%;" src="https://ibb.co/wJMPs94" width="100px;" alt=""/><br /><sub><b>Luana Gribel Ito</b></sub><br />👾</td>
+  <table>
+  <tr>
+  <td align="center"><img style="border-radius: 50%;" src="https://ibb.co/17shswg" width="100px;" alt=""/><br /><sub><b>Igor Rufino Ribeiro</b></sub><br />👾</td>
+
+  <td align="center"><img style="border-radius: 50%;" src="https://ibb.co/7RSpKcR" width="100px;" alt=""/><br /><sub><b>Danilo Vidal Ribeiro</b></sub><br />👾</td>
+
+  <td align="center"><img style="border-radius: 50%;" src="https://ibb.co/wJMPs94" width="100px;" alt=""/><br /><sub><b>Luana Gribel Ito</b></sub><br />👾</td>
+
+</tr>
+<table>
