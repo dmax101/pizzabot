@@ -7,7 +7,7 @@
 
 ## 💻 Sobre o projeto
 
-  🍕 PizzaBot - é um serviço que permite conectar gamers famintos a pizzarias locais.
+  🍕 PizzaBot - é um serviço que permite conectar gamers famintos a pizzarias locais através do Discord.
 
   Projeto desenvolvido para a disciplina de Engenharia de Software.
 
@@ -15,7 +15,7 @@
 
 ## ⚙️ Funcionalidades
 
- O usuário pode pedir uma pizza, diretamente pelo Discord, sem precisar interromper sua partida 😋👾🍕
+ O player pode pedir uma pizza, diretamente pelo Discord, sem precisar interromper sua partida 😋👾🍕
 
 
 
