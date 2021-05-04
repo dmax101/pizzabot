@@ -15,7 +15,7 @@
 
 ## ⚙️ Funcionalidades
 
- O usuário pode pedir uma pizza, diretamente pelo Discord, sem precisar interromper sua partida 😋👾🍕
+ O player pode pedir uma pizza, diretamente pelo Discord, sem precisar interromper sua partida 😋👾🍕
 
 
 
