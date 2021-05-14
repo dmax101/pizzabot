@@ -18,9 +18,10 @@ class Analysis:
         traits = response['traits']
         get_pizza = first_value(traits, 'get_pizza')
         get_beverage = first_value(traits, 'get_beverage')
+        get_dessert = first_value(traits, 'get_dessert')
 
-        if get_pizza and get_beverage:
-            return "Pizza going well with a beverage!"
+        if (get_pizza and get_beverage) and get_dessert:
+            return "Pizza going well with a beverage and a dessert!"
 
         if get_pizza:
             return "Pizza time!"

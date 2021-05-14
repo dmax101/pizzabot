@@ -2,7 +2,7 @@ from wit import Wit
 import pprint as pp
 import os
 
-class Wit_Connector:
+class WitConnector:
     def __init__(self):
         self.client = Wit(access_token=os.environ['WIT_TOKEN'])
 
