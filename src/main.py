@@ -6,7 +6,6 @@ BOT_DESC = "PizzaBot é um serviço que permite conectar gamers famintos a pizza
 
 client = discord.Client()
 
-
 def get_text_channels():
     text_channel_list = []
     for guild in client.guilds:
@@ -14,11 +13,9 @@ def get_text_channels():
             text_channel_list.append(channel)
     return text_channel_list
 
-
 def compose_message(message):
     message = "🍕 " + message
     return message
-
 
 @client.event
 async def on_ready():
@@ -27,7 +24,6 @@ async def on_ready():
     text_channels = get_text_channels()
     await client.get_channel(text_channels[0].id).send(compose_message("É hora da pizza!!"))
     await client.get_channel(text_channels[0].id).send(compose_message(BOT_DESC))
-
 
 @client.event
 async def on_message(message):

@@ -1,32 +1,22 @@
-import pytest
-import os
-import pprint as pp
+# import pytest
+# import os
+# import pprint as pp
+# from datetime import datetime
 
-from ..model.dbconnector import DbConnector
+# from ..model.dbconnector import DbConnector
 
-@pytest.fixture(scope="function")
-def initial():
-    cn = {
-        "user": "pizzabot",
-        "password": os.environ["DB_PASSWORD"],
-        "database": "pizzabot",
-    }
+# @pytest.fixture(scope="function")
+# def initial():
+#     client = DbConnector("pizzabot", os.environ["DB_PASSWORD"], "test")
 
-    client = DbConnector(cn["user"], cn["password"], cn["database"])
+#     db = client.connect()
+#     test_db = db.test
 
-    db = client.connect()
-    order_db = db.order
+#     return test_db
 
-    return order_db
+# def test_insert_one(initial):
+#     post = {"test": datetime.now()}
 
-def post(initial):
-    try:
-        post = {"nome": "Danilo"}
+#     post_id = initial.insert_one(post).inserted_id
 
-        post_id = initial.find_one(post)
-
-        pp.pprint(post_id)
-    except Exception as e:
-        # Lidando com possíveis erros de comunicação
-        print("Oops! {} ocorrido".format(e.__class__))
-        pp.pprint(e)
+#     pp.pprint(post_id)
