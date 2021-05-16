@@ -1,6 +1,0 @@
-discord (pip install discord)
-
-pytest (pip install pytest)
-pytest-mock (pip install pytest-mock)
-
-pywit (pip install wit)
