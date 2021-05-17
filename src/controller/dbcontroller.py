@@ -1,5 +1,4 @@
-from .model.dbconnector import DbConnector
-from .controller.dbcontroller import DbController
+from ..model.dbconnector import DbConnector
 import os
 import pprint as pp
 
