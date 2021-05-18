@@ -2,7 +2,7 @@ import pytest
 import os
 import pprint as pp
 
-from ..model.order import Order
+from model.order import Order
 
 @pytest.fixture(scope="function", autouse=True)
 def order():

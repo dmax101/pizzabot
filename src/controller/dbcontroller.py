@@ -1,4 +1,4 @@
-from ..model.dbconnector import DbConnector
+from model.dbconnector import DbConnector
 import os
 import pprint as pp
 

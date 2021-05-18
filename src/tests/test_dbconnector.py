@@ -2,8 +2,9 @@ import pytest
 import os
 import pprint as pp
 from datetime import datetime
+import warnings
 
-from ..model.dbconnector import DbConnector
+from model.dbconnector import DbConnector
 
 @pytest.fixture(scope="function")
 def initial():
@@ -14,7 +15,10 @@ def initial():
 
     return test_db
 
+@pytest.mark.filterwarnings("ignore:.*U.*mode is deprecated:DeprecationWarning")
 def test_insert_one(initial):
+    warnings.simplefilter('always')
+
     post = {"test": datetime.now()}
 
     post_id = initial.insert_one(post).inserted_id

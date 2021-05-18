@@ -1,5 +1,5 @@
 import pytest
-from ..controller.analysis import Analysis
+from controller.analysis import Analysis
 import pprint as pp
 
 class TestAnalysis:

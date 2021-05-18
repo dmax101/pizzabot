@@ -1,5 +1,5 @@
 import pytest
-from ..model.witconnector import WitConnector
+from model.witconnector import WitConnector
 
 def test_send_message_response():
 
