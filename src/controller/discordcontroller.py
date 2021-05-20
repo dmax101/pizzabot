@@ -79,7 +79,7 @@ class DiscordController:
                     iterations = 0
                     while True:
                         iterations += 1
-                        log("Level {}".format(iterations))
+                        log("Level {}".format(iterations), location=[self])
 
                         flow = self.pipeline.start(user_response)
                         await message.channel.send(
