@@ -1,4 +1,6 @@
 from pymongo import MongoClient
+from utils.log import log
+import time
 
 class DbConnector:
     # Construtor da conexão
@@ -9,13 +11,20 @@ class DbConnector:
 
     # Conexão MongoDB
     def connect(self):
-        self.client = MongoClient(
-            "mongodb+srv://{}:{}@cluster0.vmhbw.mongodb.net/{}?retryWrites=true&w=majority"
-                .format(
-                    self.user,
-                    self.password,
-                    self.database
-                )
-            )
+        while True:
+            try:
+                log("Connecting...",location=[self])
+                self.client = MongoClient(
+                    "mongodb+srv://{}:{}@cluster0.vmhbw.mongodb.net/{}?retryWrites=true&w=majority"
+                        .format(
+                            self.user,
+                            self.password,
+                            self.database
+                        )
+                    )
 
-        return self.client[self.database]
+                log("Done...",location=[self])
+                return self.client[self.database]
+            except:
+                log("Something wrong happens! Retrying in 5 seconds",location=[self], type_of="error")
+                time.sleep(5)

@@ -1,5 +1,8 @@
+import uuid
+
 class Order:
     def __init__(self, client, shopping_cart=[]):
+        self.id = uuid.uuid1()
         self.client = client
         self.shopping_cart = shopping_cart
         self.total = 0
