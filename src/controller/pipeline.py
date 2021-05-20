@@ -51,6 +51,17 @@ class Pipeline:
             return self.end_operation(user_message)
     
     def transation_db(self, user_message) -> dict:
+        # log("Connecting to 🌎 database!")
+        # db_handler = DbController([
+        #     DbConnector(
+        #         user="pizzabot",
+        #         pw=os.environ["DB_PASSWORD"],
+        #         database="pizzabot"
+        #     ).connect()
+        # ])
+
+        # log("Creating order instance")
+
         if self.on_transation_db:
             message = "transation"
             waiting_response = False
