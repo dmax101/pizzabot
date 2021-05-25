@@ -15,4 +15,4 @@ class WitConnector:
         return resp
 
 # wit = WitConnector()
-# pp.pprint(wit.message("quero uma pizza"))
+# pp.pprint(wit.message("me ve uma pizza quatro quijos"))
