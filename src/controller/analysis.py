@@ -16,6 +16,9 @@ class Analysis:
         response = self.response
 
         traits = response['traits']
+        
+        get_greeting = first_value(traits, 'get_greeting')
+
         get_pizza = first_value(traits, 'get_pizza')
         get_beverage = first_value(traits, 'get_beverage')
         get_dessert = first_value(traits, 'get_dessert')

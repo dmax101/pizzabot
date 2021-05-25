@@ -99,7 +99,7 @@ class Pipeline:
 
     def greeting(self, user_message) -> dict:
         if self.on_greeting:
-            message = "greeting: " + user_message
+            message = "greeting: "
             waiting_response = False
 
             self.on_greeting = False
