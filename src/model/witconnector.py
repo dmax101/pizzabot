@@ -13,3 +13,6 @@ class WitConnector:
     def message(self, message):
         resp = self.client.message(message)
         return resp
+
+# wit = WitConnector()
+# pp.pprint(wit.message("quero uma pizza"))
