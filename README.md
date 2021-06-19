@@ -1,10 +1,10 @@
-# PizzaBot
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dmax101/pizzabot/pizzaBot_test)
 
-<h4 align="center"> 
+
+<h1 align="center"> 
 	 🍕 PizzaBot 🍕 Em Desenvolvimento 🚀 
-</h4>
+</h1>
 
+<br>
 
 ## 💻 Sobre o projeto
 
@@ -17,7 +17,41 @@
 ## ⚙️ Funcionalidades
 
  O player pode pedir uma pizza, diretamente pelo Discord, sem precisar interromper sua partida 😋👾🍕
+ 
+ <br>
+ 
+ Basta chamar o bot, mencionando-o no chat do server.
+ 
+- Exemplo: 
+ 
+	 @PizzaBot
+	 
+<br>
+ 
+ Em seguida, ele irá se identificar e apresentar o cardápio da pizzaria.
+ 
+- Exemplo: 
+ 
+	 :pizza: Fala aí galera! Eu sou Ash, e vou te atender hoje: É hora da pizza!!! Uhul! 
 
+	 *retorno do cardápio*
+	 
+<br>
+	 
+ 
+ A partir desse momento, o usuário já pode fazer o seu pedido.
+ 
+ - Exemplo:
+
+	Gostaria de pedir 2 pizzas de pepperoni.
+	
+<br>
+	
+	
+Uma análise e retorno do status do pedido é feita, para que o usuário possa concluir/cancelar o pedido ou adicionar mais produtos.
+
+Ao finalizar o pedido, é solicitado o nome e endereço de entrega do usuário.
+ 
 
 
  ---
