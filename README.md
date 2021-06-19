@@ -1,4 +1,4 @@
-
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dmax101/pizzabot/pizzaBot_test)
 
 <h1 align="center"> 
 	 🍕 PizzaBot 🍕 Em Desenvolvimento 🚀 
