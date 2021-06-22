@@ -1,18 +1,20 @@
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dmax101/pizzabot/pizzaBot_test)
 
 <h1 align="center"> 
-	 🍕 PizzaBot 🍕 Em Desenvolvimento 🚀 
+	 🍕 PizzaBot 🍕  
 </h1>
+
+<h4 align="center">🚀 em desenvolvimento 🚀<h4>
 
 <br>
 
 ## 💻 Sobre o projeto
 
-  🍕 PizzaBot - é um serviço que permite conectar gamers famintos a pizzarias locais através do Discord.
+  PizzaBot é um serviço que permite conectar gamers famintos a pizzarias locais através do Discord.
 
   Projeto desenvolvido para a disciplina de Engenharia de Software.
 
----
+<br>
 
 ## ⚙️ Funcionalidades
 
@@ -24,7 +26,7 @@
  
 - Exemplo: 
  
-	 @PizzaBot
+	 	@PizzaBot
 	 
 <br>
  
@@ -32,9 +34,9 @@
  
 - Exemplo: 
  
-	 :pizza: Fala aí galera! Eu sou Ash, e vou te atender hoje: É hora da pizza!!! Uhul! 
+		 🍕 Fala aí galera! Eu sou Ash, e vou te atender hoje: É hora da pizza!!! Uhul! 
 
-	 *retorno do cardápio*
+		 *retorno do cardápio*
 	 
 <br>
 	 
@@ -43,7 +45,7 @@
  
  - Exemplo:
 
-	Gostaria de pedir 2 pizzas de pepperoni.
+		Gostaria de pedir 2 pizzas de pepperoni.
 	
 <br>
 	
@@ -54,7 +56,7 @@ Ao finalizar o pedido, é solicitado o nome e endereço de entrega do usuário.
  
 
 
- ---
+ <br>
 
 
 ## 🛠 Tecnologias
@@ -69,7 +71,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
   
 
 
----
+<br>
 
 ## 👨‍💻 Contribuidores
 
