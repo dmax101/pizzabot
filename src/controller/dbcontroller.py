@@ -6,9 +6,11 @@ class DbController:
     def __init__(self, collection):
         self.collection = collection[0]
 
+    #novo pedido
     def post_one_doc(self, document):
         self.collection.insert_one(document)
     
+    #revisao pedido
     def get_one_doc(self, document):
         res = self.collection.find_one(document)
         return res
@@ -28,4 +30,18 @@ class DbController:
 
 # documentos = order_handler.find_all()
 
+# revisao
+
 # pp.pprint(order_handler.get_one_doc({"teste": "teste"}))
+
+
+##### CARDAPIO #####
+
+#pizzas_db = cnn.connect().pizzas
+
+#pizzas_handler = DbController([pizzas_db])
+
+#pizzas = pizzas_handler.find_all()
+
+#for pizza in pizzas:
+# print(pizza)
