@@ -5,9 +5,9 @@ name: pizzaBot_test
 
 on:
   push:
-    branches: [ main ]
+    branches: [ igor ]
   pull_request:
-    branches: [ main ]
+    branches: [ igor ]
 
 jobs:
   build:
