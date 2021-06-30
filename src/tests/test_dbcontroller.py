@@ -8,7 +8,7 @@ from model.dbconnector import DbConnector
 def dbConector_db_collection():
     cn = {
         "user": "pizzabot",
-        "password": os.environ["DB_PASSWORD"],
+        "password": "jWIoo3QuWhP70RZD",
         "database": "pizzabot",
     }
 
