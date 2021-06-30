@@ -55,7 +55,7 @@ class Pipeline:
     
     def canceling_operation(self, user_message) -> dict:
         if self.on_canceling_operation:
-            message = "Operação cancelada pelo usuário"
+            message = "Operação cancelada pelo usuário!"
             waiting_response = False
 
             self.on_canceling_operation = False
