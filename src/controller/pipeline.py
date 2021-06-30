@@ -4,13 +4,13 @@ from model.dbconnector import DbConnector
 import os
 
 def post_order(pedido):
-  cnn = DbConnector("pizzabot", os.environ["DB_PASSWORD"], "pizzabot")
+  cnn = DbConnector("pizzabot", "jWIoo3QuWhP70RZD", "pizzabot")
   order_db = cnn.connect().orders
   order_handler = DbController([order_db])
   order_handler.post_one_doc(pedido)
 
 def get_cardapio():
-  cnn = DbConnector("pizzabot", os.environ["DB_PASSWORD"], "pizzabot")
+  cnn = DbConnector("pizzabot", "jWIoo3QuWhP70RZD", "pizzabot")
   pizzas_db = cnn.connect().pizzas
   pizzas_handler = DbController([pizzas_db])
   pizzas = pizzas_handler.find_all()
