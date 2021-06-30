@@ -40,5 +40,5 @@ jobs:
       run: |
         pwd
         ls
-        pytest --capture=tee-sys --cov /home/runner/work/pizzabot/pizzabot/src/tests
+        pytest --capture=tee-sys --cov ./src/tests/
         
