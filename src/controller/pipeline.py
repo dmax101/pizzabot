@@ -1,4 +1,3 @@
-from model.witconnector import WitConnector
 from utils.log import log
 from controller.dbcontroller import DbController
 from model.dbconnector import DbConnector
