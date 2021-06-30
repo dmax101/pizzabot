@@ -36,23 +36,50 @@
  
 		 🍕 Fala aí galera! Eu sou Ash, e vou te atender hoje: É hora da pizza!!! Uhul! 
 
-		 *retorno do cardápio*
+				 CARDAPIO:
+		CALABRESA   -----------------------   RS 51.23
+		QUATRO QUEIJOS   ------------------   RS 45.19
+		PEPPERONI   -----------------------   RS 57.64
+		MARGHERITA   ----------------------   RS 49.58
+		MUSSARELA   -----------------------   RS 40.01
+		NAPOLITANA   ----------------------   RS 50.64
+		FRANGO COM CATUPIRY   -------------   RS 55.41
+		PORTUGUESA   ----------------------   RS 55.57
+		ALCACHOFRA   ----------------------   RS 61.25
+		ATUM   ----------------------------   RS 40.01
+		ATUM COM MUSSARELA   --------------   RS 42.79
+		ATUM PAULISTANO   -----------------   RS 45.19
+		BACON COM CATUPIRY   --------------   RS 40.01
+		BACON COM MUSSARELA   -------------   RS 40.02
+		BRÓCOLIS COM MUSSARELA   ----------   RS 40.02
+		BRÓCOLIS ESPECIAL   ---------------   RS 42.79
+		BÚFALA   --------------------------   RS 65.13
+		CAIPIRA   -------------------------   RS 61.25
+		CANADENSE   -----------------------   RS 45.19
+		CARNE SECA COM CATUPIRY   ---------   RS 62.24
+		CARNE SECA COM CREAM CHEESE   -----   RS 40.13
+		CHOCOLATE   -----------------------   RS 55.57
+		CINCO QUEIJOS   -------------------   RS 49
+		ESCAROLA   ------------------------   RS 50.64
+		VEGANA   --------------------------   RS 55.41
+
+		 Para cancelar essa sessão, digite 'CANCELAR'
+		 Para mostrar o cardapio novamente, digite 'CARDAPIO'
+		 Qual sabor deseja pedir?
 	 
 <br>
 	 
  
- A partir desse momento, o usuário já pode fazer o seu pedido.
+ A partir desse momento, o usuário já pode escolher o sabor desejado.
  
  - Exemplo:
 
-		Gostaria de pedir 2 pizzas de pepperoni.
+		@PizzaBot Pepperoni
 	
 <br>
 	
 	
 Uma análise e retorno do status do pedido é feita, para que o usuário possa concluir/cancelar o pedido ou adicionar mais produtos.
-
-Ao finalizar o pedido, é solicitado o nome e endereço de entrega do usuário.
  
 
 
@@ -66,12 +93,26 @@ As seguintes ferramentas foram usadas na construção do projeto:
   - Python
   - Pip
   - Pytest
-  - Wit
   - MongoDB
   
 
 
 <br>
+
+## Instalação
+	
+	
+Para instalar as bibliotecas do projeto, usa-se os comandos:
+
+		pip install -r requirements.txt
+	
+<br>
+		
+		python -m pip install pymongo[srv]
+	
+	
+	
+<br> 
 
 ## 👨‍💻 Contribuidores
 
