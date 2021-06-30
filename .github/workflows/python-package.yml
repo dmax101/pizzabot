@@ -42,5 +42,5 @@ jobs:
         pip install pytest-mock
         pwd
         ls
-        pytest --capture=tee-sys --cov ./src/tests/
+        pytest --capture=tee-sys --cov ./src/
         
