@@ -20,10 +20,10 @@ class DbController:
       res = self.collection.find({})
       return res
 
-cnn = DbConnector("pizzabot", os.environ["DB_PASSWORD"], "pizzabot")
+cnn = DbConnector("pizzabot", "jWIoo3QuWhP70RZD", "pizzabot")
 
 def get_cardapio(self):
-      cnn = DbConnector("pizzabot", os.environ["DB_PASSWORD"], "pizzabot")
+      cnn = DbConnector("pizzabot", "jWIoo3QuWhP70RZD", "pizzabot")
       pizzas_db = cnn.connect().pizzas
       pizzas_handler = DbController([pizzas_db])
       pizzas = pizzas_handler.find_all()
