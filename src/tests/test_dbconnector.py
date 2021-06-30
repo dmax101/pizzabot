@@ -8,7 +8,7 @@ from model.dbconnector import DbConnector
 
 @pytest.fixture(scope="function")
 def initial():
-    client = DbConnector("pizzabot", os.environ["DB_PASSWORD"], "test")
+    client = DbConnector("pizzabot", "jWIoo3QuWhP70RZD", "test")
 
     db = client.connect()
     test_db = db.test
