@@ -10,7 +10,7 @@ class DiscordController:
         bot_names = ["Sonny","David","Bumblebee","Ultron","Andrew","Gort","Ash","T-800","T-1000","Pris","EVA","Wall-E","Robby","Marvin","C3PO","R2D2","Rosie","HAL 9000","Gigolo Joe","Skynet","Johnny 5","Data","ED209","False Maria"]
         self.bot_name = bot_names[randrange(len(bot_names))]
         log("The bot 🤖 {} is the attendant.".format(self.bot_name), location=[self])
-        self.BOT_DESC = "PizzaBot é um serviço que permite conectar gamers famintos a pizzarias locais através do Discord."
+        self.BOT_DESC = "PizzaBot é um serviço que permite conectar gamers famintos a pizzarias locais através do Discord.\nPara interagir comigo, basta mencionar @PizzaBot"
 
         self.client = discord.Client()
         self.token = token
@@ -82,11 +82,17 @@ class DiscordController:
                         log("Level {}".format(iterations), location=[self])
 
                         flow = self.pipeline.start(user_response)
-                        await message.channel.send(
-                            self.compose_message(
-                                flow["message"]
+                        if flow is None or flow["message"] is None:
+                            break
+                        else:
+                            await message.channel.send(
+                                self.compose_message(
+                                    flow["message"]
+                                )
                             )
-                        )
+                            if flow["message"] == "Operação cancelada pelo usuário" or flow["message"] == "Finalizando sessão! Obrigado pela preferência!":
+                                self.pipeline = Pipeline()
+                                break
                         if flow["waiting_response"]:
                             break
         

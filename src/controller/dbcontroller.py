@@ -22,6 +22,15 @@ class DbController:
 
 cnn = DbConnector("pizzabot", os.environ["DB_PASSWORD"], "pizzabot")
 
+def get_cardapio(self):
+      cnn = DbConnector("pizzabot", os.environ["DB_PASSWORD"], "pizzabot")
+      pizzas_db = cnn.connect().pizzas
+      pizzas_handler = DbController([pizzas_db])
+      pizzas = pizzas_handler.find_all()
+      for pizza in pizzas:
+          print(pizza)
+
+
 ##### PEDIDO #####
 
 # order_db = cnn.connect().orders

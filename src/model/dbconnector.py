@@ -25,6 +25,6 @@ class DbConnector:
 
                 log("Done...",location=[self])
                 return self.client[self.database]
-            except:
-                log("Something wrong happens! Retrying in 5 seconds",location=[self], type_of="error")
+            except Exception as e:
+                log(f"{e} Retrying in 5 seconds",location=[self], type_of="error")
                 time.sleep(5)
